@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./chat.css">
+</head>
+<body>
+
+
+  <section class="first">
+    <h2 class="welcome">Welcome to our online chat site</h2>
+    <div class="div1">
+        <div class="style">
+        <h2 class="first_h2">Sign In</h2>
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Please enter your name">
+        <label for="">Password:</label>
+        <input type="password" id="pass">
+        <button class="confirm">Confirm</button>
+     </div>
+    </div>
+    
+  </section>
+
+
+  <section class="second">
+    <div class="center">
+    <h2 class="second_h2"></h2>
+    <div class="chat_part"></div>
+    <div class="change">
+    <textarea id="text_part" cols="30" rows="2"></textarea>
+    <button class="send">Send</button>
+    </div>
+    </div>
+      
+
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script> 
+    <script src="./chat.js"></script>
+</body>
+</html>
